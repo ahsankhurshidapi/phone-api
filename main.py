@@ -5,7 +5,7 @@ app = FastAPI()
 
 # Simulated database
 customer_data = {
-    "+1234567890": "Queue2",
+    "+1234567890": "Queue1",
     "+13033055294": "Queue1"
 }
 
