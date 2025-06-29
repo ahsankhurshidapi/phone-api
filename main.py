@@ -17,5 +17,5 @@ class PhoneRequest(BaseModel):
 def get_customer_name(request: PhoneRequest):
     name = customer_data.get(request.phone_number)
     if name:
-        return {"customer_name": name}
+        return {"customerQueue": name}
     raise HTTPException(status_code=404, detail="Customer not found")
