@@ -6,7 +6,7 @@ app = FastAPI()
 # Simulated database
 customer_data = {
     "+1234567890": "Queue1",
-    "+1987654321": "Jane Smith"
+    "+16282368824": "Queue1"
 }
 
 class PhoneRequest(BaseModel):
